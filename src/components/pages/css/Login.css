@@ -1,0 +1,72 @@
+.login{
+    background-image: url(../../../../public/assets/lap.jpg);
+    height: 740px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .loginMenu{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+  }
+  .formm {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 35px auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 2rem;
+    border: black 2px solid;
+  }
+  .formm input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: black 1px solid;
+
+  }
+  .formm button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #696969;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .formm button:hover,
+  .formm button:active,
+  .formm button:focus {
+    background: #595959;
+    transition: 0.5s;
+  }
+  .formm .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .formm .message a {
+    color: #696969;
+    text-decoration: none;
+  }
+  .formm .registerForm {
+    display: none;
+  }
+  
+  @media (max-width: 336px) {
+    .loginMenu {
+      width: 336px;
+    }
+
+    }
